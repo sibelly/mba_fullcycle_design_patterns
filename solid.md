@@ -12,5 +12,5 @@ Crie pontos de extensão, evitando mexer no que já está funcionando e evitando
 Lets see
 
 ### ISP - Interface Segregation Principle
-Don't depend the thing you don't need
+Don't depend on things you don't need
 Não dependa de coisas que não precisa
