@@ -1,46 +1,36 @@
-DTO - Data Transfer Object
-
+### DTO - Data Transfer Object
 Objeto que só tem propriedades, sendo utilizado para transporte entre camadas da aplicação
 
-Repository
-
+### Repository
 Realizar a persistência de aggregates (clusters de objetos de domínio como entities e value objects), separando essa responsabilidade da aplicação
 
-Adapter
-
+### Adapter
 Converte a interface de uma classe em outra esperada pelo cliente, permitindo que classes incompatíveis trabalhem juntas
 
-Strategy
-
+### Strategy
 Criar comportamento intercambiável
 
 
-Dynamic Factory
-
+### Dynamic Factory
 Criar uma instância com base em uma string
 
-Presenter
-
+### Presenter
 Formatar e adequar um determino conjunto de dados às necessidades do cliente
 
-Decorator
-
+### Decorator
 Permite acrescentar funcionalidades a um objeto existente (OCP)
 
-Controller
-
+### Controller
 Conecta o driver com a aplicação, repassando os dados de entrada e retorno a saída de acordo com o drive
 
-Composition Root
-
+### Composition Root
 Entrypoint da aplicação, onde são criadas as instâncias utilizadas pelos componentes, monta o grafo de dependências da aplicação
 
-Mediator
-
+### Mediator
 Cria um mecanismo de notificação para reduzir o acoplamento entre os objetos
 
-Livros
+## Livros
 
-GoF
-Head First - Design Patterns
-Patterns of Enterprise Application Architecture
+- GoF
+- Head First - Design Patterns
+- Patterns of Enterprise Application Architecture
