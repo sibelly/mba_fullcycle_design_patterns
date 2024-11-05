@@ -1,6 +1,6 @@
 # MBA em Arquitetura Full Cycle
 <p align="center">
-<img src="https://github.com/sibelly/mba_fullcycle_design_patterns/blob/master/.github/fullcycle.svg?raw=true" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/sibelly/mba_fullcycle_design_patterns/blob/master/.github/fullcycle.svg?raw=true" alt="drawing" style="width:600px;"/>
 </p>
 
 ## Arquitetura de Software
