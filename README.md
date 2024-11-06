@@ -19,3 +19,6 @@
 - Interface segregation principle
 - Dependency inversion principle
 
+## Tools
+
+https://refactoring.guru/pt-br/design-patterns/catalog
