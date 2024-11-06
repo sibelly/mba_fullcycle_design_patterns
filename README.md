@@ -22,3 +22,36 @@
 ## Tools
 
 https://refactoring.guru/pt-br/design-patterns/catalog
+
+
+### Project
+
+node version -> v18.20.3
+
+#### Database
+```
+psql -U youruser -d yourdb -f create.sql
+```
+Possible errors
+```
+DROP SCHEMA
+CREATE SCHEMA
+psql:create.sql:11: ERROR:  function uuid_generate_v4() does not exist
+LINE 2:  id_contract uuid not null default uuid_generate_v4() primar...
+```
+
+Enter the database and install the extension *uuid-ossp*
+```
+psql -U postgres -d yllebs
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+```
+
+#### Start express api
+```
+npx nodemon src/main.ts
+```
+
+#### Tests
+```
+npx jest
+```
