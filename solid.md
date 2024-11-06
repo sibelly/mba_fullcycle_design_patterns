@@ -1,6 +1,8 @@
 ### SRP - Single Responsibility Principle
 Devemos separar coisas que mudam por motivos diferentes
 
+- A single source of change
+
 ### DIP - Dependency Inversion Principle
 Componentes de alto nível não devem depender de componentes de baixo nível, eles devem depender de abstrações
 
