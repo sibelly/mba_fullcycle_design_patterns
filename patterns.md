@@ -4,21 +4,20 @@ Objeto que só tem propriedades, sendo utilizado para transporte entre camadas d
 ### Repository
 Realizar a persistência de aggregates (clusters de objetos de domínio como entities e value objects), separando essa responsabilidade da aplicação
 
-### Adapter
+### Adapter (structural design pattern)
 Converte a interface de uma classe em outra esperada pelo cliente, permitindo que classes incompatíveis trabalhem juntas
 
 ### Strategy
 Criar comportamento intercambiável
 
-
-### Dynamic Factory
+### Factory (creational design pattern)
 Criar uma instância com base em uma string
 
 ### Presenter
 Formatar e adequar um determino conjunto de dados às necessidades do cliente
 
-### Decorator
-Permite acrescentar funcionalidades a um objeto existente (OCP)
+### Decorator (structural design pattern)
+Permite acrescentar funcionalidades a um objeto existente (OCP - SOLID)
 
 ### Controller
 Conecta o driver com a aplicação, repassando os dados de entrada e retorno a saída de acordo com o drive
