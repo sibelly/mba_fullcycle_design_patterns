@@ -25,8 +25,17 @@ Conecta o driver com a aplicação, repassando os dados de entrada e retorno a s
 ### Composition Root
 Entrypoint da aplicação, onde são criadas as instâncias utilizadas pelos componentes, monta o grafo de dependências da aplicação
 
-### Mediator
-Cria um mecanismo de notificação para reduzir o acoplamento entre os objetos
+[main.ts](https://github.com/sibelly/mba_fullcycle_design_patterns/blob/master/src/main.ts)
+
+https://refactoring.guru/design-patterns/composite
+
+
+### Mediator (behavioral design pattern)
+Cria um mecanismo de notificação para reduzir o acoplamento entre os objetos.
+
+n para n
+
+https://refactoring.guru/design-patterns/mediator
 
 ## Livros
 
